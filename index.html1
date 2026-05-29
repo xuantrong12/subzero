@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UFT-8">
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browser và web server</title>
+
+<style>
+body{font-family:Arial;margin:20px}
+img{width:300px}
+</style>
+</head>
+
+<body>
+
+<h2>Trình duyệt và máy chủ web</h2>
+<p>Trình duyệt web giúp người dùng truy cập và xem các trang web trên Internet.</p>
+<p>Máy chủ web lưu trữ dữ liệu website và gửi nội dung đến trình duyệt.</p>
+<img src="https://via.placeholder.com/300x180" alt="Hình minh họa">
+
+</body>
+</html>
