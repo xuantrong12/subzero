@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24h Bóng Đá</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f4f4f4; color: #333; }
+    a { text-decoration: none; color: inherit; }
+    
+    /* Navigation Bar */
+    .navbar { background: #53a653; color: #fff; font-size: 12px; font-weight: bold; position: sticky; top: 0; }
+    .nav-container { max-width: 1200px; margin: 0 auto; display: flex; overflow-x: auto; }
+    .nav-item, .menu-icon { padding: 14px 12px; white-space: nowrap; cursor: pointer; }
+    .nav-item:hover, .nav-item.active { background: #3d803d; }
+
+    /* Layout chính 3 cột */
+    .content-container { max-width: 1200px; margin: 20px auto; padding: 0 10px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .column { background: #fff; padding: 15px; border-radius: 4px; }
+
+    /* Nội dung Tin tức */
+    .featured-news img { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; }
+    .featured-news h2 { font-size: 18px; margin: 10px 0 8px; line-height: 1.4; }
+    .featured-news p { font-size: 13px; color: #666; line-height: 1.5; }
+    
+    .news-list { list-style: none; border-top: 1px solid #eee; margin-top: 10px; }
+    .news-list li { padding: 10px 0; border-bottom:
